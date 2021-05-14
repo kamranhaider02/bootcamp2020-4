@@ -1,38 +1,72 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  height: 70px;
+  width: 100%;
+  background-color: rgb(154, 181, 231);
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.brand{
+  display: inline-block;
+  float: left;
+  padding-left: 5%;
+  padding-top: 20px;
+  color: rgb(241, 229, 241);
+  font-weight: bold;
+  text-shadow: 50px blueviolet;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header ul{
+  float: right;
+  padding-right: 5%;
 }
-
-.App-link {
-  color: #61dafb;
+.header ul li{
+  float: left;
+  list-style-type: none;
+  padding: 5px 5px 5px 5px;
 }
+.header ul li a{
+  text-decoration: none;
+  color: black;
+}
+.header ul li a:hover{
+  color: rgb(225, 230, 241);
+}
+.citiesList{
+  display: block;
+}
+.singleCity{
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  margin: 2%;
+  background-color: rgb(154, 181, 231);
+  text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.singleCity h3{
+  padding-top:80px;
+  display: inline-block;
+}
+.remove{
+  background-color: red;
+  display: inline-block;
+  margin-bottom: 250px;
+}
+.footer{
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(154, 181, 231);
+  margin-top: 100px;
+}
+.footer h4{ display: inline;
+float: left;}
+.footer img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline;
+  float: right;
 }
